@@ -1,0 +1,21 @@
+body {
+  padding: 0 130px;
+  padding-top: 70px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+}
+
+.navbar {
+  display: inline-block;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 40px;
+}
+.navbar img:nth-child(2) {
+  height: 30px;
+}
+.navbar p {
+  transform: translateY(-17px);
+}/*# sourceMappingURL=style.css.map */
