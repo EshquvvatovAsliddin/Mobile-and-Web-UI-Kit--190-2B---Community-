@@ -5,28 +5,31 @@ body {
 }
 
 .navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.navbar .navbar__left {
   display: inline-block;
-  background-color: aquamarine;
   display: grid;
   grid-template-columns: auto auto auto;
   width: -moz-max-content;
   width: max-content;
   gap: 40px;
 }
-.navbar img:nth-child(2) {
+.navbar .navbar__left img:nth-child(2) {
   height: 30px;
 }
-.navbar p {
+.navbar .navbar__left p {
   transform: translateY(-17px);
 }
-
-.nav__right {
+.navbar .nav__right {
   display: grid;
   grid-template-columns: auto auto;
   width: -moz-max-content;
   width: max-content;
 }
-.nav__right p {
+.navbar .nav__right p {
   margin-top: 6px;
   margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
