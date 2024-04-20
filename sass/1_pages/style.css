@@ -18,4 +18,15 @@ body {
 }
 .navbar p {
   transform: translateY(-17px);
+}
+
+.nav__right {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: -moz-max-content;
+  width: max-content;
+}
+.nav__right p {
+  margin-top: 6px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
