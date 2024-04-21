@@ -1,2 +1,97 @@
-body{
+body {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    padding: 0 100px;
+    padding-top: 50px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1000px;
+    width: 100%;
+
+    .navright {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto auto auto;
+        width: max-content;
+
+        img:nth-child(2) {
+            border-bottom: 2px solid;
+            padding-bottom: 5px;
+            position: relative;
+            // top: 5px;
+        }
+
+        img:nth-child(3) {
+            position: relative;
+            top: -10px;
+            left: 20px;
+        }
+    }
+}
+
+.meincha {
+    margin-top: 170px;
+    margin-left: 100px;
+
+    .bigpicture {
+        position: relative;
+        top: -370px;
+        left: 704px;
+        width: 420px;
+        height: 631px;
+        z-index: -9;
+    }
+
+    .btn {
+        margin-top: -500px;
+        display: grid;
+        grid-template-columns: auto auto;
+        width: max-content;
+        gap: 50px;
+
+        h3 {
+            border-bottom: 2px solid rgb(215, 116, 29);
+            width: 275px;
+            text-align: center;
+            color: #00000080;
+            padding-bottom: 10px;
+        }
+
+        button {
+            border-radius: 4px;
+            width: 102px;
+            height: 59px;
+            background-color: #FF7064;
+            border: none;
+            font-size: 20px;
+            font-weight: 100;
+            font-family: 'Neue Haas Grotesk Display Pro';
+            color: white;
+        }
+    }
+
+    h1:nth-child(2) {
+        font-size: 100px;
+        font-weight: 50 !important;
+        font-family: 'Neue Haas Grotesk Display Pro 25 XThin';
+        text-shadow: 0px 6px 0px black, 0px 12px 0px black, 0px 18px 0px black;
+    }
+
+    .cominson {
+        img {
+            width: 632px;
+        }
+    }
+
+    .ondenight {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+
+
 }
