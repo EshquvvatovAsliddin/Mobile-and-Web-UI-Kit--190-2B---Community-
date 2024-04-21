@@ -1,0 +1,87 @@
+body {
+    padding: 0 100px;
+    overflow: hidden;
+    padding-top: 50px;
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+}
+
+nav {
+    display: grid;
+    gap: 1110px;
+    grid-template-columns: auto auto;
+
+    .navright {
+        border: 2px solid;
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 120px;
+        height: 40px;
+        border-radius: 40px;
+
+        h3 {
+            margin-top: 9px;
+            margin-left: 15px;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+    }
+}
+.needback{
+    padding: 40px;
+    margin-top: 20px;
+    img:nth-child(1){
+        position: relative;
+        top: -38px;
+        left: 381.5px;
+        z-index: 99;
+        width: 471.25px;
+        height: 488.9px;
+    }
+    img:nth-child(2) {
+        width: 469px;
+        filter: grayscale(1);
+        z-index: -20;
+        height: 469px;
+    }
+}
+.maindev{
+    margin-top: -200px;
+    margin-left: 260px;
+    .maindevimg{
+        left: -160px;
+        width: 450px;
+        position: relative;
+        top: 355px;
+        height: 207px;
+    }
+}
+.settingbtn{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 208px;
+    position: relative;
+    top: -120px;
+    left: 80px;
+    height: 50px;
+    border-radius: 440px;
+    background-color: black !important;
+    color: white;
+    h4{
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    img{
+        margin-top: 6px;
+        width: 36px;
+        height: 36px;
+    }
+}
+select{
+    position: relative;
+    top: -60px;
+    border: none;
+    margin: 0 auto;
+    border-bottom: 3px solid;
+}
