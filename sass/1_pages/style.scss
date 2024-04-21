@@ -1,7 +1,34 @@
 body {
     padding: 0 130px;
     padding-top: 70px;
+    // height: 1024px;
     font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    overflow-x: hidden;
+
+    h3:nth-child(1) {
+        font-size: 14px;
+        font-weight: 350;
+        position: absolute;
+        top: 360px;
+    }
+
+    .leftbottom {
+        width: 80px;
+        margin-left: -10px;
+    }
+}
+
+/* !=============== CUSTOM SCROOLBAR =============== */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    // background-image: linear-gradient(#8176AF, #C0B7E8);
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -36,5 +63,45 @@ body {
             margin-top: 6px;
             margin-left: 10px;
         }
+    }
+}
+
+.lemon {
+    position: absolute;
+    top: 40%;
+    width: 330px;
+    z-index: -2;
+    left: 37%;
+}
+
+.hero {
+    position: absolute;
+    bottom: 0;
+    top: 365px;
+    left: 715px;
+
+    img {
+        filter: grayscale(1);
+        width: 420px;
+        left: 200px;
+    }
+
+    img:nth-child(2) {
+        position: absolute;
+        left: 50px;
+        top: -50px;
+        z-index: -1;
+    }
+}
+
+.her02 {
+    position: relative;
+    left: 1260px;
+    display: grid;
+    gap: 15px;
+
+    img:nth-child(2) {
+        transform: translateY(330px);
+        transform: translateX(-17px);
     }
 }
