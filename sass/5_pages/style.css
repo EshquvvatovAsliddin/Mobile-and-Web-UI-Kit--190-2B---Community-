@@ -1,1 +1,39 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+.needgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  margin-top: 170px;
+}
+
+main {
+  display: flex;
+  gap: 100px;
+}
+main .content {
+  display: grid;
+  gap: 200px;
+  height: -moz-max-content;
+  height: max-content;
+}
+main h2 {
+  font-size: 36px;
+}
+main .thanks {
+  width: 459px;
+}
+main .tp {
+  max-width: 736px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #7f7f7f;
+}/*# sourceMappingURL=style.css.map */
